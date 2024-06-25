@@ -5,9 +5,6 @@ python3.11 -m venv .
 ## Install dependencies
 pip install Flask SQLAlchemy psycopg2 flask_cors
 
-## Send request
-curl -X GET http://127.0.0.1:5000/generate-schedule -H "Content-Type: application/json"
-
 ## Para rodar as migrations:
 flask db init
 flask db migrate -m "Descrição da migração"

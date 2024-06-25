@@ -1,0 +1,51 @@
+[
+    {
+        "turma": 1,
+        "disciplina": "HTML",
+        "professor": "Prof. Eliel",
+        "dia": "segunda",
+        "periodo": "manh\u00e3"
+    },
+    {
+        "turma": 1,
+        "disciplina": "Teoria dos Grafos",
+        "professor": "Prof. Paulo",
+        "dia": "ter\u00e7a",
+        "periodo": "manh\u00e3"
+    },
+    {
+        "turma": 1,
+        "disciplina": "Teoria dos Grafos",
+        "professor": "Prof. Paulo",
+        "dia": "quarta",
+        "periodo": "manh\u00e3"
+    },
+    {
+        "turma": 1,
+        "disciplina": "Processamento de Imagens",
+        "professor": "Prof. Paulo",
+        "dia": "quinta",
+        "periodo": "manh\u00e3"
+    },
+    {
+        "turma": 2,
+        "disciplina": "Teoria dos Grafos",
+        "professor": "Prof. Wilson",
+        "dia": "segunda",
+        "periodo": "noite"
+    },
+    {
+        "turma": 2,
+        "disciplina": "Teoria dos Grafos",
+        "professor": "Prof. Wilson",
+        "dia": "ter\u00e7a",
+        "periodo": "noite"
+    },
+    {
+        "turma": 2,
+        "disciplina": "Processamento de Imagens",
+        "professor": "Prof. Wilson",
+        "dia": "quarta",
+        "periodo": "noite"
+    }
+]

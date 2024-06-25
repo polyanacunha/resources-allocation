@@ -1,0 +1,32 @@
+<form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+    <div formGroupName="professor">
+      <input formControlName="nome" placeholder="Nome do Professor">
+      <input formControlName="email" placeholder="Email do Professor">
+    </div>
+    <div formGroupName="disciplina">
+      <input formControlName="nome" placeholder="Nome da Disciplina">
+      <input formControlName="cargaHorariaSemanal" placeholder="Carga Horária Semanal">
+    </div>
+    <div formGroupName="turma">
+      <input formControlName="semestre" placeholder="Semestre">
+      <input formControlName="periodo" placeholder="Período">
+    </div>
+    <div formGroupName="curso">
+      <input formControlName="nome" placeholder="Nome do Curso">
+    </div>
+    <div formGroupName="disponibilidade">
+      <input formControlName="dia" placeholder="Dia">
+      <input formControlName="periodo" placeholder="Período">
+    </div>
+    <div formGroupName="relacaoDisciplinaProfessor">
+      <input formControlName="professorId" placeholder="ID do Professor">
+      <input formControlName="disciplinaId" placeholder="ID da Disciplina">
+    </div>
+    <div formGroupName="cursoDisciplina">
+      <input formControlName="cursoId" placeholder="ID do Curso">
+      <input formControlName="disciplinaId" placeholder="ID da Disciplina">
+      <input formControlName="semestre" placeholder="Semestre do Curso">
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+  
